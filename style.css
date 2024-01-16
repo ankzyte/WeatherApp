@@ -1,0 +1,64 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: arial;
+    background:skyblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width:40vmin;
+    height:45vmin;
+    background-color:azure;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    backdrop-filter: blur(25px);
+    background-color: rgba(255,255,255,0.1);
+}
+
+.container .city{
+    font-size: 44px;
+}
+
+.container .temperature{
+    font-size:100px;
+}
+
+.side-bar{
+    display:flex;
+    flex-direction: column;
+    padding-right:35px;
+    align-items: center;
+    
+}
+
+.side-bar label{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.side-bar input{
+    border:none;
+    border-radius: 25px;
+    height: 2rem;
+    outline: none;
+    margin-bottom: 15px;
+    padding:0px 15px;
+}
+
+.side-bar button{
+    border:none;
+    text-align: center;
+    padding:10px 15px;   
+    border-radius: 25px;
+    background-color: brown;
+    color:white;
+    cursor: pointer;
+}
+
